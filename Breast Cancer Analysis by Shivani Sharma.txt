@@ -1,0 +1,42 @@
+Breast Cancer Analysis
+
+* Tumors are classified into two categories
+* 1 M
+* 2 B
+* These classification is based on the anlysis of the characterstics of cyst or tumor.
+
+Technologies Used
+
+1.python
+2.Stats
+3.Visualization
+4.Machine Learning
+4.a.Supervised ML
+4.a.1.Classification technique is used(bcz labelled data is used)
+4.a.2.Regression technique
+5.EDA
+
+
+Now What is EDA(Exploratory Data Analysis)
+
+Exploratory Data Analysis (EDA) refers to the method of studying and exploring record sets to apprehend their predominant traits, discover patterns, locate outliers, and identify relationships between variables. EDA is normally carried out as a preliminary step before undertaking extra formal statistical analyses or modeling.
+
+
+Steps of EDA in our project:
+
+Step1: installation of libraries(matplotlib, xgboost, scipy) numpy and pandas are already installed in my device.
+Step2: importing all essential libraries
+Step3: reading of csv file(dataset)
+Step4: Data preprocessing
+Step5: Separate columns into smaller dataframes to perform visualization
+Step6: Data visualization
+Step7: Splitting the data
+Step8: Model Building
+
+Here are some Conclusive points from this model
+
+1.Logistic Regression accuracy : 58.77%
+2.SVC accuracy : 58.77%
+3.Naive Bayes accuracy : 59.65%
+4.Random Forest Classifier accuracy : 95.61%
+5.XGboost accuracy : 98.25%
